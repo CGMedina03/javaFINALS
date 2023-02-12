@@ -210,7 +210,7 @@ public class LogInfrm extends javax.swing.JFrame {
                 rs.close();
                 ps.close();
             }else{
-                JOptionPane.showMessageDialog(null, "Incorrect Username and Password");
+                JOptionPane.showMessageDialog(null, "Incorrect Username OR Password");
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);

@@ -213,8 +213,8 @@ public class Registrationfrm extends javax.swing.JFrame {
                 rdFemale.setActionCommand("Female");
                 rdMale.setActionCommand("Male");
                 rdOthers.setActionCommand("Other");
-
                 String gender = buttonGroup1.getSelection().getActionCommand();
+                
         //        ComboBOX
                 String role = (String) cbxRole.getSelectedItem();
 
