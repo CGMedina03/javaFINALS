@@ -238,12 +238,13 @@ public class MainMenufrm extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("ID NUMBER");
+        jLabel1.setText("ID NUMBER:");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, 170, -1));
 
         txtUSER_ID.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        txtUSER_ID.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtUSER_ID.setText("jLabel13");
-        jPanel2.add(txtUSER_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, -1, -1));
+        jPanel2.add(txtUSER_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, 90, 20));
 
         tbpRecords.addTab("UserProfile", jPanel2);
 
