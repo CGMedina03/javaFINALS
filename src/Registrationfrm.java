@@ -244,10 +244,10 @@ public class Registrationfrm extends javax.swing.JFrame {
                 }
 
             }catch (Exception e) {
-                JOptionPane.showMessageDialog(null, "Please, Complete the user information");
+                JOptionPane.showMessageDialog(null, "Please complete the user information");
             }
         }else{
-            JOptionPane.showMessageDialog(null, "Password doesnt match");
+            JOptionPane.showMessageDialog(null, "Password doesn't match");
         }
         
         
@@ -260,10 +260,11 @@ public class Registrationfrm extends javax.swing.JFrame {
        txtAddress.setText("");
        txtEmail.setText("");
        txtPassword.setText("");
-       txtCPassword.getText();
+       txtCPassword.setText("");
        spnAge.setValue(0);
        buttonGroup1.clearSelection();
        dcsBDay.setCalendar(null);
+       cbxRole.setSelectedIndex(0);
     }//GEN-LAST:event_btnClearActionPerformed
 
     /**
