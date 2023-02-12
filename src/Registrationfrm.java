@@ -64,6 +64,7 @@ public class Registrationfrm extends javax.swing.JFrame {
         btnRegister = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("CCC Corp. Registration Form");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(16, 64, 79));
@@ -128,7 +129,7 @@ public class Registrationfrm extends javax.swing.JFrame {
         getContentPane().add(rdFemale, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, -1, -1));
 
         buttonGroup1.add(rdOthers);
-        rdOthers.setText("others");
+        rdOthers.setText("Prefer not to Say");
         getContentPane().add(rdOthers, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 230, -1, -1));
 
         jLabel8.setText("Role");
@@ -261,6 +262,8 @@ public class Registrationfrm extends javax.swing.JFrame {
        txtPassword.setText("");
        txtCPassword.getText();
        spnAge.setValue(0);
+       buttonGroup1.clearSelection();
+       dcsBDay.setCalendar(null);
     }//GEN-LAST:event_btnClearActionPerformed
 
     /**
