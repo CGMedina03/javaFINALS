@@ -147,8 +147,6 @@ public class MainMenufrm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jPanel5.setBackground(new java.awt.Color(16, 64, 79));
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -180,71 +178,129 @@ public class MainMenufrm extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel2.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-6, 0, 730, 100));
-
         lblFullName.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblFullName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblFullName.setText("Fullname:");
-        jPanel2.add(lblFullName, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 90, 40));
 
         lblRole.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblRole.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblRole.setText("Role:");
-        jPanel2.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 90, 40));
 
         lblAge.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblAge.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblAge.setText("Age:");
-        jPanel2.add(lblAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 90, 40));
 
         lblGender.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblGender.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblGender.setText("Gender:");
-        jPanel2.add(lblGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 90, 40));
 
         lblBDay.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblBDay.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblBDay.setText("Birthdate:");
-        jPanel2.add(lblBDay, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, 90, 40));
 
         lblAddress.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblAddress.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblAddress.setText("Address:");
-        jPanel2.add(lblAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 90, 40));
 
         txtFullName.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtFullName.setText("jLabel1");
-        jPanel2.add(txtFullName, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 240, 40));
 
         txtRoles.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtRoles.setText("jLabel13");
-        jPanel2.add(txtRoles, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, 220, 40));
 
         txtAge.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtAge.setText("jLabel14");
-        jPanel2.add(txtAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, 210, 40));
 
         txtGender.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtGender.setText("jLabel16");
-        jPanel2.add(txtGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 320, 230, 40));
 
         txtBday.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtBday.setText("jLabel17");
-        jPanel2.add(txtBday, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 220, 40));
 
         txtAddress.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtAddress.setText("jLabel18");
-        jPanel2.add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 420, 510, 40));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel1.setText("ID NUMBER:");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, 170, -1));
 
-        txtUSER_ID.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        txtUSER_ID.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtUSER_ID.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         txtUSER_ID.setText("jLabel13");
-        jPanel2.add(txtUSER_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, 90, 20));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(286, 286, 286)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtUSER_ID, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblFullName, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtFullName, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblRole, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtRoles, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblAge, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtAge, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblGender, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtGender, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblBDay, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtBday, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(lblAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(txtAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 510, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(txtUSER_ID, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(28, 28, 28)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblFullName, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtFullName, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblRole, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtRoles, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblAge, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtAge, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblGender, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtGender, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblBDay, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtBday, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
 
         tbpRecords.addTab("UserProfile", jPanel2);
 
